@@ -44,6 +44,7 @@ namespace ApiTipoCambio
             connection.Close();
             Console.WriteLine("********************************");
             Console.WriteLine("** FIN DEL PROCESO **");
+            
 
 
         }

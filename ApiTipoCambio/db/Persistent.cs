@@ -12,7 +12,7 @@ namespace ApiTipoCambio.db
 
             SqlConnection connection = new SqlConnection();
             String productionConnectionString;
-            productionConnectionString = "Server=172.31.125.10;Database=TIPODECAMBIO;Integrated Security=SSPI;";
+            productionConnectionString = "Server=172.31.125.10;Database=CNVSIB;Integrated Security=SSPI;";
             try
             {
                 connection = new SqlConnection(productionConnectionString);
